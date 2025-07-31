@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpymanager=self.webpackChunkpymanager||[]).push([[1903],{1912:a=>{a.exports=JSON.parse('{"blogBasePath":"/api-pymanager-rs-docs/fr/blog","blogTitle":"Blog","authorsListPath":"/api-pymanager-rs-docs/fr/blog/authors"}')}}]);

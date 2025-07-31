@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpymanager=self.webpackChunkpymanager||[]).push([[4844],{8383:a=>{a.exports=JSON.parse('{"metadata":{"permalink":"/api-pymanager-rs-docs/fr/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

@@ -1,0 +1,522 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-API_DOCUMENTATION_ES" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.8.1">
+<title data-rh="true">Documentación de la API | PyManagEr API Docs</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://chrisvlj.github.io/api-pymanager-rs-docs/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://chrisvlj.github.io/api-pymanager-rs-docs/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://chrisvlj.github.io/api-pymanager-rs-docs/docs/API_DOCUMENTATION_ES"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" property="og:locale:alternate" content="es"><meta data-rh="true" property="og:locale:alternate" content="fr"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Documentación de la API | PyManagEr API Docs"><meta data-rh="true" name="description" content="Tabla de Contenidos"><meta data-rh="true" property="og:description" content="Tabla de Contenidos"><link data-rh="true" rel="icon" href="/api-pymanager-rs-docs/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://chrisvlj.github.io/api-pymanager-rs-docs/docs/API_DOCUMENTATION_ES"><link data-rh="true" rel="alternate" href="https://chrisvlj.github.io/api-pymanager-rs-docs/docs/API_DOCUMENTATION_ES" hreflang="en"><link data-rh="true" rel="alternate" href="https://chrisvlj.github.io/api-pymanager-rs-docs/es/docs/API_DOCUMENTATION_ES" hreflang="es"><link data-rh="true" rel="alternate" href="https://chrisvlj.github.io/api-pymanager-rs-docs/fr/docs/API_DOCUMENTATION_ES" hreflang="fr"><link data-rh="true" rel="alternate" href="https://chrisvlj.github.io/api-pymanager-rs-docs/docs/API_DOCUMENTATION_ES" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Documentación de la API","item":"https://chrisvlj.github.io/api-pymanager-rs-docs/docs/API_DOCUMENTATION_ES"}]}</script><link rel="alternate" type="application/rss+xml" href="/api-pymanager-rs-docs/blog/rss.xml" title="PyManagEr API Docs RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/api-pymanager-rs-docs/blog/atom.xml" title="PyManagEr API Docs Atom Feed"><link rel="stylesheet" href="/api-pymanager-rs-docs/assets/css/styles.7e0de4be.css">
+<script src="/api-pymanager-rs-docs/assets/js/runtime~main.a8e17a41.js" defer="defer"></script>
+<script src="/api-pymanager-rs-docs/assets/js/main.d285b3fa.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t="light";var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",e||t),document.documentElement.setAttribute("data-theme-choice",e||t)}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/api-pymanager-rs-docs/img/pymanager.jpg"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/api-pymanager-rs-docs/"><div class="navbar__logo"><img src="/api-pymanager-rs-docs/img/pymanager.jpg" alt="My Site Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/api-pymanager-rs-docs/img/pymanager.jpg" alt="My Site Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">PyManagEr Docs</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/api-pymanager-rs-docs/docs/API_DOCUMENTATION">Tutorial</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/api-pymanager-rs-docs/docs/API_DOCUMENTATION">API Documentation</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" href="/api-pymanager-rs-docs/docs/API_DOCUMENTATION_ES">Documentación de la API</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/api-pymanager-rs-docs/docs/API_DOCUMENTATION_FR">Documentation de l&#x27;API</a></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/api-pymanager-rs-docs/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">Documentación de la API</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Documentación de la API</h1></header>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="tabla-de-contenidos">Tabla de Contenidos<a href="#tabla-de-contenidos" class="hash-link" aria-label="Direct link to Tabla de Contenidos" title="Direct link to Tabla de Contenidos">​</a></h2>
+<ol>
+<li><a href="#autenticaci%C3%B3n">Autenticación</a></li>
+<li><a href="#endpoints-de-usuario">Endpoints de Usuario</a></li>
+<li><a href="#endpoints-de-producto">Endpoints de Producto</a></li>
+<li><a href="#endpoints-de-actividad">Endpoints de Actividad</a></li>
+<li><a href="#endpoints-de-factura">Endpoints de Factura</a></li>
+<li><a href="#modelos-de-datos">Modelos de Datos</a></li>
+<li><a href="#respuestas-de-error">Respuestas de Error</a></li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="autenticación">Autenticación<a href="#autenticación" class="hash-link" aria-label="Direct link to Autenticación" title="Direct link to Autenticación">​</a></h2>
+<p>Todos los endpoints (excepto el registro y el inicio de sesión de usuarios) requieren autenticación usando un token Bearer en el encabezado de Autorización:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Authorization: Bearer &lt;token&gt;</span><br></span></code></pre></div></div>
+<p>Para obtener un token, use el endpoint de inicio de sesión.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="endpoints-de-usuario">Endpoints de Usuario<a href="#endpoints-de-usuario" class="hash-link" aria-label="Direct link to Endpoints de Usuario" title="Direct link to Endpoints de Usuario">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="registrar-usuario">Registrar Usuario<a href="#registrar-usuario" class="hash-link" aria-label="Direct link to Registrar Usuario" title="Direct link to Registrar Usuario">​</a></h3>
+<p>Crea un nuevo usuario para una empresa específica.</p>
+<ul>
+<li><strong>URL</strong>: <code>/users/registro/:ruc</code></li>
+<li><strong>Método</strong>: <code>POST</code></li>
+<li><strong>Parámetros de URL</strong>:<!-- -->
+<ul>
+<li><code>ruc</code> (string): El RUC (identificación de empresa) de la empresa</li>
+</ul>
+</li>
+<li><strong>Parámetros de Datos</strong>:<!-- -->
+<ul>
+<li><code>nombre</code> (string, opcional): Nombre del usuario</li>
+<li><code>email</code> (string, requerido): Correo electrónico del usuario</li>
+<li><code>password_hash</code> (string, requerido): Contraseña del usuario (hash)</li>
+<li><code>rol</code> (string, opcional): Rol del usuario</li>
+<li><code>usuario</code> (string, requerido): Nombre de usuario</li>
+<li><code>cedula</code> (string, requerido): Número de identificación del usuario</li>
+</ul>
+</li>
+<li><strong>Respuesta Exitosa</strong>:<!-- -->
+<ul>
+<li>Código: 201 CREADO</li>
+<li>Contenido: <code>{&quot;mensaje&quot;: &quot;Usuario creado correctamente&quot;}</code></li>
+</ul>
+</li>
+<li><strong>Respuesta de Error</strong>:<!-- -->
+<ul>
+<li>Código: 400 SOLICITUD INCORRECTA</li>
+<li>Contenido: <code>{&quot;error&quot;: &quot;Empresa no encontrada&quot;}</code></li>
+<li>Código: 500 ERROR INTERNO DEL SERVIDOR</li>
+<li>Contenido: <code>{&quot;error&quot;: &quot;Error creating user&quot;}</code></li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="iniciar-sesión-de-usuario">Iniciar Sesión de Usuario<a href="#iniciar-sesión-de-usuario" class="hash-link" aria-label="Direct link to Iniciar Sesión de Usuario" title="Direct link to Iniciar Sesión de Usuario">​</a></h3>
+<p>Autentica un usuario y devuelve un token.</p>
+<ul>
+<li><strong>URL</strong>: <code>/users/login</code></li>
+<li><strong>Método</strong>: <code>POST</code></li>
+<li><strong>Parámetros de Datos</strong>:<!-- -->
+<ul>
+<li><code>username</code> (string): Nombre de usuario</li>
+<li><code>password</code> (string): Contraseña</li>
+</ul>
+</li>
+<li><strong>Respuesta Exitosa</strong>:<!-- -->
+<ul>
+<li>Código: 200 OK</li>
+<li>Contenido: <code>{&quot;token&quot;: &quot;&lt;token&gt;&quot;}</code></li>
+</ul>
+</li>
+<li><strong>Respuesta de Error</strong>:<!-- -->
+<ul>
+<li>Código: 401 NO AUTORIZADO</li>
+<li>Contenido: <code>{&quot;error&quot;: &quot;Credenciales inválidas&quot;}</code></li>
+<li>Código: 500 ERROR INTERNO DEL SERVIDOR</li>
+<li>Contenido: <code>{&quot;error&quot;: &quot;Error interno&quot;}</code></li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="obtener-usuario-por-nombre">Obtener Usuario por Nombre<a href="#obtener-usuario-por-nombre" class="hash-link" aria-label="Direct link to Obtener Usuario por Nombre" title="Direct link to Obtener Usuario por Nombre">​</a></h3>
+<p>Recupera un usuario por su nombre.</p>
+<ul>
+<li><strong>URL</strong>: <code>/users/nombre/:name</code></li>
+<li><strong>Método</strong>: <code>GET</code></li>
+<li><strong>Parámetros de URL</strong>:<!-- -->
+<ul>
+<li><code>name</code> (string): El nombre del usuario a recuperar</li>
+</ul>
+</li>
+<li><strong>Encabezados</strong>:<!-- -->
+<ul>
+<li><code>Authorization: Bearer &lt;token&gt;</code></li>
+</ul>
+</li>
+<li><strong>Respuesta Exitosa</strong>:<!-- -->
+<ul>
+<li>Código: 200 OK</li>
+<li>Contenido: Objeto de usuario</li>
+</ul>
+</li>
+<li><strong>Respuesta de Error</strong>:<!-- -->
+<ul>
+<li>Código: 404 NO ENCONTRADO</li>
+<li>Contenido: <code>{&quot;error&quot;: &quot;Usuario no encontrado&quot;}</code></li>
+<li>Código: 500 ERROR INTERNO DEL SERVIDOR</li>
+<li>Contenido: <code>{&quot;error&quot;: &quot;No se pudo obtener conexión a la base de datos&quot;}</code></li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="obtener-usuarios-de-la-empresa">Obtener Usuarios de la Empresa<a href="#obtener-usuarios-de-la-empresa" class="hash-link" aria-label="Direct link to Obtener Usuarios de la Empresa" title="Direct link to Obtener Usuarios de la Empresa">​</a></h3>
+<p>Recupera todos los usuarios de la empresa del usuario autenticado.</p>
+<ul>
+<li><strong>URL</strong>: <code>/users/mi-empresa</code></li>
+<li><strong>Método</strong>: <code>GET</code></li>
+<li><strong>Encabezados</strong>:<!-- -->
+<ul>
+<li><code>Authorization: Bearer &lt;token&gt;</code></li>
+</ul>
+</li>
+<li><strong>Respuesta Exitosa</strong>:<!-- -->
+<ul>
+<li>Código: 200 OK</li>
+<li>Contenido: Array de objetos de usuario</li>
+</ul>
+</li>
+<li><strong>Respuesta de Error</strong>:<!-- -->
+<ul>
+<li>Código: 400 SOLICITUD INCORRECTA</li>
+<li>Contenido: <code>{&quot;error&quot;: &quot;Token no encontrado&quot;}</code></li>
+<li>Código: 404 NO ENCONTRADO</li>
+<li>Contenido: <code>{&quot;error&quot;: &quot;Usuario no encontrado&quot;}</code> o <code>{&quot;error&quot;: &quot;No se encontraron usuarios para esta empresa&quot;}</code></li>
+<li>Código: 500 ERROR INTERNO DEL SERVIDOR</li>
+<li>Contenido: <code>{&quot;error&quot;: &quot;No se pudo obtener conexión a la base de datos&quot;}</code></li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="actualizar-usuario">Actualizar Usuario<a href="#actualizar-usuario" class="hash-link" aria-label="Direct link to Actualizar Usuario" title="Direct link to Actualizar Usuario">​</a></h3>
+<p>Actualiza la información del usuario autenticado.</p>
+<ul>
+<li><strong>URL</strong>: <code>/users/:id</code></li>
+<li><strong>Método</strong>: <code>PUT</code></li>
+<li><strong>Encabezados</strong>:<!-- -->
+<ul>
+<li><code>Authorization: Bearer &lt;token&gt;</code></li>
+</ul>
+</li>
+<li><strong>Parámetros de Datos</strong>:<!-- -->
+<ul>
+<li><code>nombre</code> (string, opcional): Nombre del usuario</li>
+<li><code>password_hash</code> (string, requerido): Contraseña del usuario (hash)</li>
+<li><code>rol</code> (string, opcional): Rol del usuario</li>
+<li><code>usuario</code> (string, requerido): Nombre de usuario</li>
+<li><code>cedula</code> (string, requerido): Número de identificación del usuario</li>
+</ul>
+</li>
+<li><strong>Respuesta Exitosa</strong>:<!-- -->
+<ul>
+<li>Código: 201 CREADO</li>
+<li>Contenido: <code>{&quot;mensaje&quot;: &quot;Usuario actualizado correctamente&quot;}</code></li>
+</ul>
+</li>
+<li><strong>Respuesta de Error</strong>:<!-- -->
+<ul>
+<li>Código: 400 SOLICITUD INCORRECTA</li>
+<li>Contenido: <code>{&quot;error&quot;: &quot;Token no encontrado&quot;}</code></li>
+<li>Código: 500 ERROR INTERNO DEL SERVIDOR</li>
+<li>Contenido: <code>{&quot;error&quot;: &quot;No se pudo obtener conexión a la base de datos&quot;}</code> o <code>{&quot;error&quot;: &quot;Error actualizando usuario&quot;}</code></li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="eliminar-usuario">Eliminar Usuario<a href="#eliminar-usuario" class="hash-link" aria-label="Direct link to Eliminar Usuario" title="Direct link to Eliminar Usuario">​</a></h3>
+<p>Elimina un usuario por ID.</p>
+<ul>
+<li><strong>URL</strong>: <code>/users/:id</code></li>
+<li><strong>Método</strong>: <code>DELETE</code></li>
+<li><strong>Parámetros de URL</strong>:<!-- -->
+<ul>
+<li><code>id</code> (integer): El ID del usuario a eliminar</li>
+</ul>
+</li>
+<li><strong>Encabezados</strong>:<!-- -->
+<ul>
+<li><code>Authorization: Bearer &lt;token&gt;</code></li>
+</ul>
+</li>
+<li><strong>Respuesta Exitosa</strong>:<!-- -->
+<ul>
+<li>Código: 200 OK</li>
+<li>Contenido: <code>{&quot;mensaje&quot;: &quot;Usuario eliminado correctamente&quot;}</code></li>
+</ul>
+</li>
+<li><strong>Respuesta de Error</strong>:<!-- -->
+<ul>
+<li>Código: 400 SOLICITUD INCORRECTA</li>
+<li>Contenido: <code>{&quot;error&quot;: &quot;token no encontrado&quot;}</code> o <code>{&quot;error&quot;: &quot;Usuario no encontrado&quot;}</code></li>
+<li>Código: 500 ERROR INTERNO DEL SERVIDOR</li>
+<li>Contenido: <code>{&quot;error&quot;: &quot;No se pudo obtener conexión a la base de datos&quot;}</code> o <code>{&quot;error&quot;: &quot;Error al eliminar usuario&quot;}</code></li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="endpoints-de-producto">Endpoints de Producto<a href="#endpoints-de-producto" class="hash-link" aria-label="Direct link to Endpoints de Producto" title="Direct link to Endpoints de Producto">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="agregar-producto">Agregar Producto<a href="#agregar-producto" class="hash-link" aria-label="Direct link to Agregar Producto" title="Direct link to Agregar Producto">​</a></h3>
+<p>Agrega un nuevo producto a la empresa del usuario autenticado.</p>
+<ul>
+<li><strong>URL</strong>: <code>/productos/agregar-producto/</code></li>
+<li><strong>Método</strong>: <code>POST</code></li>
+<li><strong>Encabezados</strong>:<!-- -->
+<ul>
+<li><code>Authorization: Bearer &lt;token&gt;</code></li>
+</ul>
+</li>
+<li><strong>Parámetros de Datos</strong>:<!-- -->
+<ul>
+<li><code>nombre</code> (string, opcional): Nombre del producto</li>
+<li><code>descripcion</code> (string, opcional): Descripción del producto</li>
+<li><code>precio_venta</code> (number, opcional): Precio de venta</li>
+<li><code>stock_actual</code> (integer, opcional): Stock actual</li>
+<li><code>stock_minimo</code> (integer, opcional): Stock mínimo</li>
+<li><code>categoria</code> (string, opcional): Categoría del producto</li>
+</ul>
+</li>
+<li><strong>Respuesta Exitosa</strong>:<!-- -->
+<ul>
+<li>Código: 201 CREADO</li>
+<li>Contenido: <code>{&quot;mensaje&quot;: &quot;Producto creado correctamente&quot;}</code></li>
+</ul>
+</li>
+<li><strong>Respuesta de Error</strong>:<!-- -->
+<ul>
+<li>Código: 400 SOLICITUD INCORRECTA</li>
+<li>Contenido: <code>{&quot;error&quot;: &quot;token no encontrado&quot;}</code> o <code>{&quot;error&quot;: &quot;Usuario no encontrado&quot;}</code></li>
+<li>Código: 500 ERROR INTERNO DEL SERVIDOR</li>
+<li>Contenido: <code>{&quot;error&quot;: &quot;No se pudo obtener conexión a la base de datos&quot;}</code> o <code>{&quot;error&quot;: &quot;Error creando producto&quot;}</code></li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="listar-productos">Listar Productos<a href="#listar-productos" class="hash-link" aria-label="Direct link to Listar Productos" title="Direct link to Listar Productos">​</a></h3>
+<p>Recupera todos los productos de la empresa del usuario autenticado.</p>
+<ul>
+<li><strong>URL</strong>: <code>/productos</code></li>
+<li><strong>Método</strong>: <code>GET</code></li>
+<li><strong>Encabezados</strong>:<!-- -->
+<ul>
+<li><code>Authorization: Bearer &lt;token&gt;</code></li>
+</ul>
+</li>
+<li><strong>Respuesta Exitosa</strong>:<!-- -->
+<ul>
+<li>Código: 200 OK</li>
+<li>Contenido: Array de objetos de producto</li>
+</ul>
+</li>
+<li><strong>Respuesta de Error</strong>:<!-- -->
+<ul>
+<li>Código: 400 SOLICITUD INCORRECTA</li>
+<li>Contenido: <code>{&quot;error&quot;: &quot;Token no encontrado&quot;}</code></li>
+<li>Código: 404 NO ENCONTRADO</li>
+<li>Contenido: <code>{&quot;error&quot;: &quot;Usuario no encontrado&quot;}</code> o <code>{&quot;error&quot;: &quot;No se encontraron productos para esta empresa&quot;}</code></li>
+<li>Código: 500 ERROR INTERNO DEL SERVIDOR</li>
+<li>Contenido: <code>{&quot;error&quot;: &quot;No se pudo obtener conexión a la base de datos&quot;}</code></li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="obtener-producto-por-id">Obtener Producto por ID<a href="#obtener-producto-por-id" class="hash-link" aria-label="Direct link to Obtener Producto por ID" title="Direct link to Obtener Producto por ID">​</a></h3>
+<p>Recupera un producto específico por su ID.</p>
+<ul>
+<li><strong>URL</strong>: <code>/productos/:id</code></li>
+<li><strong>Método</strong>: <code>GET</code></li>
+<li><strong>Parámetros de URL</strong>:<!-- -->
+<ul>
+<li><code>id</code> (integer): El ID del producto a recuperar</li>
+</ul>
+</li>
+<li><strong>Encabezados</strong>:<!-- -->
+<ul>
+<li><code>Authorization: Bearer &lt;token&gt;</code></li>
+</ul>
+</li>
+<li><strong>Respuesta Exitosa</strong>:<!-- -->
+<ul>
+<li>Código: 200 OK</li>
+<li>Contenido: Objeto de producto</li>
+</ul>
+</li>
+<li><strong>Respuesta de Error</strong>:<!-- -->
+<ul>
+<li>Código: 500 ERROR INTERNO DEL SERVIDOR</li>
+<li>Contenido: <code>{&quot;error&quot;: &quot;No se pudo obtener conexión a la base de datos&quot;}</code> o <code>{&quot;error&quot;: &quot;Error mostrando producto&quot;}</code></li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="actualizar-producto">Actualizar Producto<a href="#actualizar-producto" class="hash-link" aria-label="Direct link to Actualizar Producto" title="Direct link to Actualizar Producto">​</a></h3>
+<p>Actualiza un producto específico por su ID.</p>
+<ul>
+<li><strong>URL</strong>: <code>/productos/:id</code></li>
+<li><strong>Método</strong>: <code>PUT</code></li>
+<li><strong>Parámetros de URL</strong>:<!-- -->
+<ul>
+<li><code>id</code> (integer): El ID del producto a actualizar</li>
+</ul>
+</li>
+<li><strong>Encabezados</strong>:<!-- -->
+<ul>
+<li><code>Authorization: Bearer &lt;token&gt;</code></li>
+</ul>
+</li>
+<li><strong>Parámetros de Datos</strong>:<!-- -->
+<ul>
+<li><code>nombre</code> (string, opcional): Nombre del producto</li>
+<li><code>descripcion</code> (string, opcional): Descripción del producto</li>
+<li><code>precio_venta</code> (number, opcional): Precio de venta</li>
+<li><code>stock_actual</code> (integer, opcional): Stock actual</li>
+<li><code>stock_minimo</code> (integer, opcional): Stock mínimo</li>
+<li><code>categoria</code> (string, opcional): Categoría del producto</li>
+</ul>
+</li>
+<li><strong>Respuesta Exitosa</strong>:<!-- -->
+<ul>
+<li>Código: 201 CREADO</li>
+<li>Contenido: <code>{&quot;mensaje&quot;: &quot;Producto actualizado correctamente&quot;}</code></li>
+</ul>
+</li>
+<li><strong>Respuesta de Error</strong>:<!-- -->
+<ul>
+<li>Código: 400 SOLICITUD INCORRECTA</li>
+<li>Contenido: <code>{&quot;error&quot;: &quot;token no encontrado&quot;}</code> o <code>{&quot;error&quot;: &quot;Usuario no encontrado&quot;}</code></li>
+<li>Código: 500 ERROR INTERNO DEL SERVIDOR</li>
+<li>Contenido: <code>{&quot;error&quot;: &quot;No se pudo obtener conexión a la base de datos&quot;}</code> o <code>{&quot;error&quot;: &quot;Error actualizando producto&quot;}</code></li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="eliminar-producto">Eliminar Producto<a href="#eliminar-producto" class="hash-link" aria-label="Direct link to Eliminar Producto" title="Direct link to Eliminar Producto">​</a></h3>
+<p>Elimina un producto específico por su ID.</p>
+<ul>
+<li><strong>URL</strong>: <code>/productos/:id</code></li>
+<li><strong>Método</strong>: <code>DELETE</code></li>
+<li><strong>Parámetros de URL</strong>:<!-- -->
+<ul>
+<li><code>id</code> (integer): El ID del producto a eliminar</li>
+</ul>
+</li>
+<li><strong>Encabezados</strong>:<!-- -->
+<ul>
+<li><code>Authorization: Bearer &lt;token&gt;</code></li>
+</ul>
+</li>
+<li><strong>Respuesta Exitosa</strong>:<!-- -->
+<ul>
+<li>Código: 201 CREADO</li>
+<li>Contenido: <code>{&quot;mensaje&quot;: &quot;Producto eliminado correctamente&quot;}</code></li>
+</ul>
+</li>
+<li><strong>Respuesta de Error</strong>:<!-- -->
+<ul>
+<li>Código: 400 SOLICITUD INCORRECTA</li>
+<li>Contenido: <code>{&quot;error&quot;: &quot;token no encontrado&quot;}</code> o <code>{&quot;error&quot;: &quot;Usuario no encontrado&quot;}</code></li>
+<li>Código: 500 ERROR INTERNO DEL SERVIDOR</li>
+<li>Contenido: <code>{&quot;error&quot;: &quot;No se pudo obtener conexión a la base de datos&quot;}</code> o <code>{&quot;error&quot;: &quot;Error eliminando producto&quot;}</code></li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="endpoints-de-actividad">Endpoints de Actividad<a href="#endpoints-de-actividad" class="hash-link" aria-label="Direct link to Endpoints de Actividad" title="Direct link to Endpoints de Actividad">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="obtener-actividad-reciente">Obtener Actividad Reciente<a href="#obtener-actividad-reciente" class="hash-link" aria-label="Direct link to Obtener Actividad Reciente" title="Direct link to Obtener Actividad Reciente">​</a></h3>
+<p>Recupera la actividad reciente para la empresa del usuario autenticado.</p>
+<ul>
+<li><strong>URL</strong>: <code>/actividades/reciente</code></li>
+<li><strong>Método</strong>: <code>GET</code></li>
+<li><strong>Encabezados</strong>:<!-- -->
+<ul>
+<li><code>Authorization: Bearer &lt;token&gt;</code></li>
+</ul>
+</li>
+<li><strong>Respuesta Exitosa</strong>:<!-- -->
+<ul>
+<li>Código: 200 OK</li>
+<li>Contenido: Array de objetos de actividad</li>
+</ul>
+</li>
+<li><strong>Respuesta de Error</strong>:<!-- -->
+<ul>
+<li>Código: 400 SOLICITUD INCORRECTA</li>
+<li>Contenido: <code>{&quot;error&quot;: &quot;Token no encontrado&quot;}</code></li>
+<li>Código: 404 NO ENCONTRADO</li>
+<li>Contenido: <code>{&quot;error&quot;: &quot;Usuario no encontrado&quot;}</code> o <code>{&quot;error&quot;: &quot;No se encontraron usuarios para esta empresa&quot;}</code></li>
+<li>Código: 500 ERROR INTERNO DEL SERVIDOR</li>
+<li>Contenido: <code>{&quot;error&quot;: &quot;No se pudo obtener conexión a la base de datos&quot;}</code></li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="endpoints-de-factura">Endpoints de Factura<a href="#endpoints-de-factura" class="hash-link" aria-label="Direct link to Endpoints de Factura" title="Direct link to Endpoints de Factura">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="crear-factura">Crear Factura<a href="#crear-factura" class="hash-link" aria-label="Direct link to Crear Factura" title="Direct link to Crear Factura">​</a></h3>
+<p>Crea una nueva factura para la empresa del usuario autenticado.</p>
+<ul>
+<li><strong>URL</strong>: <code>/facturas</code></li>
+<li><strong>Método</strong>: <code>POST</code></li>
+<li><strong>Encabezados</strong>:<!-- -->
+<ul>
+<li><code>Authorization: Bearer &lt;token&gt;</code></li>
+</ul>
+</li>
+<li><strong>Parámetros de Datos</strong>:<!-- -->
+<ul>
+<li><code>empresa_id</code> (integer, opcional): ID de empresa</li>
+<li><code>usuario_id</code> (integer, opcional): ID de usuario</li>
+<li><code>cliente_nombre</code> (string, opcional): Nombre del cliente</li>
+<li><code>fecha</code> (datetime, opcional): Fecha de la factura</li>
+<li><code>total</code> (number, opcional): Total de la factura</li>
+<li><code>cliente_telefono</code> (string, opcional): Teléfono del cliente</li>
+<li><code>cliente_correo</code> (string, opcional): Correo electrónico del cliente</li>
+<li><code>empresa_nombre</code> (string, opcional): Nombre de la empresa</li>
+<li><code>nombre</code> (string, opcional): Nombre de la factura</li>
+</ul>
+</li>
+<li><strong>Respuesta Exitosa</strong>:<!-- -->
+<ul>
+<li>Código: 201 CREADO</li>
+<li>Contenido: <code>{&quot;mensaje&quot;: &quot;Factura creada correctamente&quot;}</code></li>
+</ul>
+</li>
+<li><strong>Respuesta de Error</strong>:<!-- -->
+<ul>
+<li>Código: 400 SOLICITUD INCORRECTA</li>
+<li>Contenido: <code>{&quot;error&quot;: &quot;token no encontrado&quot;}</code> o <code>{&quot;error&quot;: &quot;Empresa no encontrada&quot;}</code> o <code>{&quot;error&quot;: &quot;Usuario no encontrado&quot;}</code></li>
+<li>Código: 500 ERROR INTERNO DEL SERVIDOR</li>
+<li>Contenido: <code>{&quot;error&quot;: &quot;No se pudo obtener conexión a la base de datos&quot;}</code> o <code>{&quot;error&quot;: &quot;Error creating factura&quot;}</code></li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="obtener-facturas">Obtener Facturas<a href="#obtener-facturas" class="hash-link" aria-label="Direct link to Obtener Facturas" title="Direct link to Obtener Facturas">​</a></h3>
+<p>Recupera todas las facturas para la empresa del usuario autenticado.</p>
+<ul>
+<li><strong>URL</strong>: <code>/facturas</code></li>
+<li><strong>Método</strong>: <code>GET</code></li>
+<li><strong>Encabezados</strong>:<!-- -->
+<ul>
+<li><code>Authorization: Bearer &lt;token&gt;</code></li>
+</ul>
+</li>
+<li><strong>Respuesta Exitosa</strong>:<!-- -->
+<ul>
+<li>Código: 200 OK</li>
+<li>Contenido: Array de objetos de factura</li>
+</ul>
+</li>
+<li><strong>Respuesta de Error</strong>:<!-- -->
+<ul>
+<li>Código: 400 SOLICITUD INCORRECTA</li>
+<li>Contenido: <code>{&quot;error&quot;: &quot;Token no encontrado&quot;}</code></li>
+<li>Código: 404 NO ENCONTRADO</li>
+<li>Contenido: <code>{&quot;error&quot;: &quot;Usuario no encontrado&quot;}</code></li>
+<li>Código: 500 ERROR INTERNO DEL SERVIDOR</li>
+<li>Contenido: <code>{&quot;error&quot;: &quot;No se pudo obtener conexión a la base de datos&quot;}</code> o <code>{&quot;error&quot;: &quot;Error al obtener las facturas&quot;}</code></li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="obtener-detalle-de-factura">Obtener Detalle de Factura<a href="#obtener-detalle-de-factura" class="hash-link" aria-label="Direct link to Obtener Detalle de Factura" title="Direct link to Obtener Detalle de Factura">​</a></h3>
+<p>Recupera los detalles de una factura específica por su ID.</p>
+<ul>
+<li><strong>URL</strong>: <code>/facturas/detalle/:id</code></li>
+<li><strong>Método</strong>: <code>GET</code></li>
+<li><strong>Parámetros de URL</strong>:<!-- -->
+<ul>
+<li><code>id</code> (integer): El ID de la factura a recuperar</li>
+</ul>
+</li>
+<li><strong>Encabezados</strong>:<!-- -->
+<ul>
+<li><code>Authorization: Bearer &lt;token&gt;</code></li>
+</ul>
+</li>
+<li><strong>Respuesta Exitosa</strong>:<!-- -->
+<ul>
+<li>Código: 200 OK</li>
+<li>Contenido: Objeto de factura</li>
+</ul>
+</li>
+<li><strong>Respuesta de Error</strong>:<!-- -->
+<ul>
+<li>Código: 400 SOLICITUD INCORRECTA</li>
+<li>Contenido: <code>{&quot;error&quot;: &quot;Token no encontrado&quot;}</code></li>
+<li>Código: 404 NO ENCONTRADO</li>
+<li>Contenido: <code>{&quot;error&quot;: &quot;Usuario no encontrado&quot;}</code> o <code>{&quot;error&quot;: &quot;Factura no encontrada&quot;}</code></li>
+<li>Código: 500 ERROR INTERNO DEL SERVIDOR</li>
+<li>Contenido: <code>{&quot;error&quot;: &quot;No se pudo obtener conexión a la base de datos&quot;}</code></li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="modelos-de-datos">Modelos de Datos<a href="#modelos-de-datos" class="hash-link" aria-label="Direct link to Modelos de Datos" title="Direct link to Modelos de Datos">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="usuario">Usuario<a href="#usuario" class="hash-link" aria-label="Direct link to Usuario" title="Direct link to Usuario">​</a></h3>
+<div class="language-rust codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-rust codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">pub</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">struct</span><span class="token plain"> </span><span class="token type-definition class-name">User</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">pub</span><span class="token plain"> id</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">i32</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">pub</span><span class="token plain"> nombre</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token class-name">Option</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token class-name">String</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">pub</span><span class="token plain"> email</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token class-name">String</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">pub</span><span class="token plain"> password_hash</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token class-name">String</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">pub</span><span class="token plain"> rol</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token class-name">Option</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token class-name">String</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">pub</span><span class="token plain"> usuario</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token class-name">String</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">pub</span><span class="token plain"> cedula</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token class-name">String</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">pub</span><span class="token plain"> empresa_id</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">i32</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="producto">Producto<a href="#producto" class="hash-link" aria-label="Direct link to Producto" title="Direct link to Producto">​</a></h3>
+<div class="language-rust codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-rust codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">pub</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">struct</span><span class="token plain"> </span><span class="token type-definition class-name">Producto</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">pub</span><span class="token plain"> id</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">i32</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">pub</span><span class="token plain"> empresa_id</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">i32</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">pub</span><span class="token plain"> nombre</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token class-name">Option</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token class-name">String</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">pub</span><span class="token plain"> descripcion</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token class-name">Option</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token class-name">String</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">pub</span><span class="token plain"> precio_venta</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token class-name">Option</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token namespace" style="opacity:0.7">bigdecimal</span><span class="token namespace punctuation" style="opacity:0.7;color:#393A34">::</span><span class="token class-name">BigDecimal</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">pub</span><span class="token plain"> stock_actual</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token class-name">Option</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token keyword" style="color:#00009f">i32</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">pub</span><span class="token plain"> stock_minimo</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token class-name">Option</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token keyword" style="color:#00009f">i32</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">pub</span><span class="token plain"> categoria</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token class-name">Option</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token class-name">String</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="factura">Factura<a href="#factura" class="hash-link" aria-label="Direct link to Factura" title="Direct link to Factura">​</a></h3>
+<div class="language-rust codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-rust codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">pub</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">struct</span><span class="token plain"> </span><span class="token type-definition class-name">Factura</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">pub</span><span class="token plain"> id</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">i32</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">pub</span><span class="token plain"> empresa_id</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">i32</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">pub</span><span class="token plain"> usuario_id</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token class-name">Option</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token keyword" style="color:#00009f">i32</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">pub</span><span class="token plain"> cliente_nombre</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token class-name">Option</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token class-name">String</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">pub</span><span class="token plain"> cliente_identificacion</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token class-name">Option</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token class-name">String</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">pub</span><span class="token plain"> fecha</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token class-name">Option</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token namespace" style="opacity:0.7">chrono</span><span class="token namespace punctuation" style="opacity:0.7;color:#393A34">::</span><span class="token class-name">NaiveDateTime</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">pub</span><span class="token plain"> total</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token class-name">Option</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token namespace" style="opacity:0.7">bigdecimal</span><span class="token namespace punctuation" style="opacity:0.7;color:#393A34">::</span><span class="token class-name">BigDecimal</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">pub</span><span class="token plain"> cliente_telefono</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token class-name">Option</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token class-name">String</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">pub</span><span class="token plain"> cliente_correo</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token class-name">Option</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token class-name">String</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">pub</span><span class="token plain"> empresa_nombre</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token class-name">Option</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token class-name">String</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">pub</span><span class="token plain"> nombre</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token class-name">Option</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token class-name">String</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="actividad">Actividad<a href="#actividad" class="hash-link" aria-label="Direct link to Actividad" title="Direct link to Actividad">​</a></h3>
+<div class="language-rust codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-rust codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">pub</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">struct</span><span class="token plain"> </span><span class="token type-definition class-name">Auditoria</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">pub</span><span class="token plain"> id</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">i32</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">pub</span><span class="token plain"> usuario_id</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">i32</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">pub</span><span class="token plain"> empresa_id</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">i32</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">pub</span><span class="token plain"> accion</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token class-name">String</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">pub</span><span class="token plain"> entidad</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token class-name">String</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">pub</span><span class="token plain"> entidad_id</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token class-name">Option</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token keyword" style="color:#00009f">i32</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">pub</span><span class="token plain"> descripcion</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token class-name">Option</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token class-name">String</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">pub</span><span class="token plain"> fecha</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token class-name">Option</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token namespace" style="opacity:0.7">chrono</span><span class="token namespace punctuation" style="opacity:0.7;color:#393A34">::</span><span class="token class-name">NaiveDateTime</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></span></code></pre></div></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="respuestas-de-error">Respuestas de Error<a href="#respuestas-de-error" class="hash-link" aria-label="Direct link to Respuestas de Error" title="Direct link to Respuestas de Error">​</a></h2>
+<p>La API usa códigos de estado HTTP estándar para indicar el éxito o fracaso de las solicitudes:</p>
+<ul>
+<li><code>200 OK</code>: La solicitud fue exitosa</li>
+<li><code>201 CREADO</code>: El recurso fue creado exitosamente</li>
+<li><code>400 SOLICITUD INCORRECTA</code>: La solicitud fue inválida o no puede ser servida</li>
+<li><code>401 NO AUTORIZADO</code>: Se requiere autenticación o ha fallado</li>
+<li><code>404 NO ENCONTRADO</code>: El recurso solicitado no pudo ser encontrado</li>
+<li><code>500 ERROR INTERNO DEL SERVIDOR</code>: Ocurrió un error en el servidor</li>
+</ul>
+<p>Todas las respuestas de error siguen este formato:</p>
+<div class="language-json codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-json codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">&quot;error&quot;</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">&quot;Mensaje de error&quot;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></span></code></pre></div></div></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col"><a href="https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/API_DOCUMENTATION_ES.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/api-pymanager-rs-docs/docs/API_DOCUMENTATION"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">API Documentation</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/api-pymanager-rs-docs/docs/API_DOCUMENTATION_FR"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Documentation de l&#x27;API</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#tabla-de-contenidos" class="table-of-contents__link toc-highlight">Tabla de Contenidos</a></li><li><a href="#autenticación" class="table-of-contents__link toc-highlight">Autenticación</a></li><li><a href="#endpoints-de-usuario" class="table-of-contents__link toc-highlight">Endpoints de Usuario</a><ul><li><a href="#registrar-usuario" class="table-of-contents__link toc-highlight">Registrar Usuario</a></li><li><a href="#iniciar-sesión-de-usuario" class="table-of-contents__link toc-highlight">Iniciar Sesión de Usuario</a></li><li><a href="#obtener-usuario-por-nombre" class="table-of-contents__link toc-highlight">Obtener Usuario por Nombre</a></li><li><a href="#obtener-usuarios-de-la-empresa" class="table-of-contents__link toc-highlight">Obtener Usuarios de la Empresa</a></li><li><a href="#actualizar-usuario" class="table-of-contents__link toc-highlight">Actualizar Usuario</a></li><li><a href="#eliminar-usuario" class="table-of-contents__link toc-highlight">Eliminar Usuario</a></li></ul></li><li><a href="#endpoints-de-producto" class="table-of-contents__link toc-highlight">Endpoints de Producto</a><ul><li><a href="#agregar-producto" class="table-of-contents__link toc-highlight">Agregar Producto</a></li><li><a href="#listar-productos" class="table-of-contents__link toc-highlight">Listar Productos</a></li><li><a href="#obtener-producto-por-id" class="table-of-contents__link toc-highlight">Obtener Producto por ID</a></li><li><a href="#actualizar-producto" class="table-of-contents__link toc-highlight">Actualizar Producto</a></li><li><a href="#eliminar-producto" class="table-of-contents__link toc-highlight">Eliminar Producto</a></li></ul></li><li><a href="#endpoints-de-actividad" class="table-of-contents__link toc-highlight">Endpoints de Actividad</a><ul><li><a href="#obtener-actividad-reciente" class="table-of-contents__link toc-highlight">Obtener Actividad Reciente</a></li></ul></li><li><a href="#endpoints-de-factura" class="table-of-contents__link toc-highlight">Endpoints de Factura</a><ul><li><a href="#crear-factura" class="table-of-contents__link toc-highlight">Crear Factura</a></li><li><a href="#obtener-facturas" class="table-of-contents__link toc-highlight">Obtener Facturas</a></li><li><a href="#obtener-detalle-de-factura" class="table-of-contents__link toc-highlight">Obtener Detalle de Factura</a></li></ul></li><li><a href="#modelos-de-datos" class="table-of-contents__link toc-highlight">Modelos de Datos</a><ul><li><a href="#usuario" class="table-of-contents__link toc-highlight">Usuario</a></li><li><a href="#producto" class="table-of-contents__link toc-highlight">Producto</a></li><li><a href="#factura" class="table-of-contents__link toc-highlight">Factura</a></li><li><a href="#actividad" class="table-of-contents__link toc-highlight">Actividad</a></li></ul></li><li><a href="#respuestas-de-error" class="table-of-contents__link toc-highlight">Respuestas de Error</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/api-pymanager-rs-docs/docs/intro">Tutorial</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://stackoverflow.com/questions/tagged/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">Stack Overflow<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://discordapp.com/invite/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">Discord<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://x.com/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">X<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/api-pymanager-rs-docs/blog">Blog</a></li><li class="footer__item"><a href="https://github.com/facebook/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 My Project, Inc. Built with Docusaurus.</div></div></div></footer></div>
+</body>
+</html>
